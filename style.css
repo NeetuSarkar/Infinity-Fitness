@@ -1,0 +1,201 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Montserrat-Bold";
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* heading */
+
+.big-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* contact button */
+.contact-button{
+    margin: 5% 3% 10% 0;
+}
+
+/* title section */
+
+#title {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Title  Image */
+.title-image{
+    width: 100%;
+}
+
+/* Features */
+#features{
+    background-color: white;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+
+.icon{
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: gray;
+}
+
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-line{
+    color: black;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* about us */
+#about-us{
+    background-color: white;
+}
+
+
+.our-service-heading{
+    padding: 3%;
+    font-size: 2rem;
+}
+
+
+.list-group{
+    padding-bottom: 3%;
+}
+
+/* Contact */
+
+#contact{
+    background-color: black;
+}
+
+.contact-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 0% 15% 5% 15%;
+    color: white;
+}
+
+
+.form-heading{
+    color: white;
+    padding-bottom: 5%;
+    font-size: 2.5rem;
+}
+
+.form-label{
+    color: white;
+    padding-top: 5%;
+}
+
+
+.address-text{
+    font-size: 1.2rem;
+}
+
+.submit-button{
+margin: 3%;
+}
+
+
+/* Footer Section */
+
+#footer{
+    background-color: white;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: black;
+}
+
+#footer .container-fluid{
+    padding: 5% 12% 2%;
+  
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .big-heading{
+        font-size: 1.5rem;
+    }
+    .section-heading{
+        font-size: 2rem;
+    }
+}

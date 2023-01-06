@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- BootStrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- BootStrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!-- Fontawsome KIT -->
+  <script src="https://kit.fontawesome.com/2230e26d9c.js" crossorigin="anonymous"></script>
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- title of the page -->
+  <title>Document</title>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+
+        <a class="navbar-brand" href="#">Infinity Fitness</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav" style="margin-left: auto;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+
+            <h1 class="big-heading">Shape your body with us, Make yourself stronger than your excuses.</h1>
+            <button onclick="location.href='mailto:neetusarkarmartin9@gmail.com'" type="button" class="btn btn-dark btn-lg contact-button">
+                <i class="fa-solid fa-envelope"></i> Contact Us
+              </button>
+        </div>
+
+        <div class="col-lg-6">
+            <img class="title-image" src="header image.jpg" alt="">
+        </div>
+
+      </div>
+      
+    </div>
+    <!-- container-fluid class closing tag -->
+  </section>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="feature-box col-lg-4">
+                <!-- icon is a custom class here -->
+                <i class="icon fas fa-check-circle fa-4x"></i>
+                <h3 class="feature-title">World Class Equipments</h3>
+                <p>We have best equipments, all over the town.</p>
+              </div>
+      
+              <div class="feature-box col-lg-4">
+                <!-- icon is a custom class here -->
+                <i class="icon fas fa-bullseye fa-4x"></i>
+                <h3 class="feature-title">Achive your target</h3>
+                <p>Best trainers to shape your body, beyound your imagination.</p>
+              </div>
+      
+              <div class="feature-box col-lg-4">
+                <!-- icon is a custom class here -->
+                <i class="icon fas fa-heart fa-4x"></i>
+                <h3 class="feature-title">Environment</h3>
+                <p>You will love the Environment and energy of the place.</p>
+              </div>
+
+        </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan to re-shape your body</h2>
+    <p class="pricing-line">Simple and affordable price plans for you, grab and grind for your dream body.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="">Yearly</h3>
+          </div>
+          <div class="card-body">
+            <h2  class="price-text">₹1000 / mo</h2>
+            <p>₹12000 for a year</p>
+            <p>Unlimited access</p>
+            <button onclick="location.href='mailto:neetusarkarmartin9@gmail.com'" type="button" class="btn btn-lg btn-block btn-outline-dark">Contact Us</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Half-Yearly</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">₹1333 / mo</h2>
+            <p>₹8000 for half-Yearly</p>
+            <p>Unlimited access</p>
+            <button onclick="location.href='mailto:neetusarkarmartin9@gmail.com'" type="button" class="btn btn-lg btn-block btn-dark">Contact Us</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Quarterly</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$1333 / mo</h2>
+            <p>₹4000 for Quarterly</p>
+            <p>Unlimited access</p>
+            <button onclick="location.href='mailto:neetusarkarmartin9@gmail.com'" type="button" class="btn btn-lg btn-block btn-dark">Contact Us</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About Us -->
+
+  <section id="about-us">
+
+    <div class="container-fluid">
+        <h3 class="big-heading">About Us</h3>
+        <p>Infintiy Fitness is the best gym in the town, We have world class equipments we have all type of latest machines to workout with.
+            We have very experienced and professional trainers with us, who will train you and provide full support through out your workout.
+            We have lot of experienced atheltic in our gym you can get tips from them too. Overall you will get a full freindly Environment.
+        </p>
+        <h3 class="our-service-heading">Our Services</h3>
+        
+        <ul class="list-group">
+            <li class="list-group-item">World Class Equipments</li>
+            <li class="list-group-item">Professional Trainers</li>
+            <li class="list-group-item">Personal Training</li>
+            <li class="list-group-item">Diet Plans</li>
+            <li class="list-group-item">Lockers For your goods</li>
+            <li class="list-group-item">Proper cleaning and hygienity</li>
+            <li class="list-group-item">Energetic Environment</li>
+            <li class="list-group-item">No time Limits</li>
+            <li class="list-group-item">Best Location at town</li>
+          </ul>
+    </div>
+
+    <h3 class="our-service-heading">Timings</h3>
+    <ul class="list-group"><ul class="list-group">
+        <li class="list-group-item">Monday-Saturday(Morning) :- 5:30AM - 12:00AM</li>
+        <li class="list-group-item">Monday-Saturday(Evening) :- 4:00PM - 11:00PM</li>
+        <li class="list-group-item">Sunday(Morning) :- 6:00AM - 11:00AM</li>
+        <li class="list-group-item">Sunday(Evening) :- 5:00PM - 10:00PM</li>
+    </ul>
+
+  </section>
+
+
+  <!-- Contact Section -->
+
+  <section  id="contact">
+
+    <div class="container-fluid">
+        <h1 class="contact-heading">Contact Us</h1>
+
+        <div class="row">
+
+            <div class="col-lg-6">
+
+                <h2 class="form-heading">Get In Touch</h2>
+
+                <form action="mailto:neetusarkarmartin9@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label class="form-label" for="Full Name">Full Name</label>
+                        <input type="text" class="form-control" id="Full Name" name="Full Name" placeholder="Example Name">
+                      </div>
+
+                    <div class="form-group">
+                      <label class="form-label" for="Email">Email address</label>
+                      <input type="email" class="form-control" id="Email" name="Email" placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="Contact Number">Contact Number</label>
+                        <input type="text" class="form-control" id="contact number" name="contact number" placeholder="Example Number">
+                      </div>
+            
+                    <div class="form-group">
+                      <label class="form-label" for="Message">Message For Us</label>
+                      <textarea class="form-control" id="Message" name="Message" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" value="Send" class="submit-button btn btn-lg btn-block btn-dark">Submit</button>
+                  </form>
+
+            </div>
+
+            <div class="address col-lg-6">
+
+                <h2 class="form-heading">Address</h2>
+
+                <p class="address-text">SS Internationl Hotel</p><br>
+                <p class="address-text">Umerkote</p> <br>
+                <p class="address-text">Odisha-764073</p>
+                <p class="address-text">Contact - xxxxxxxxxxx</p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="container-fluid">
+      <a href="https://www.twitter.com"><i class="social-icon fab fa-twitter-square 8x"></i></a>
+      <a href="https://www.facebook.com"><i class="social-icon fab fa-facebook-square 8x"></i></a>
+      <a href="https://www.instagram.com"><i class="social-icon fab fa-instagram 8x"></i></a>
+      <a href="mailto:neetusarkarmartin9@gmail.com"><i class="social-icon fas fa-envelope 8x"></i></a>
+      <p class="copyright">© Copyright 2022 Infinity Fitness</p>
+    </div>
+  </footer>
+
+ 
+
+</body>
+
+</html>
